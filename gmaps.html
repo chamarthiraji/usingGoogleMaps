@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>geolocationAPI</title>
+	 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> 
+	 <script type="text/javascript" src="./gmaps.js"></script>
+</head>
+<body onload="init()">
+	<P id="msg">Click the button to get your coordinates</P>
+	<p id ="address"></p>
+	<button onclick="getLocation()">Where am I?</button>
+	<div id="map_canvas" style="width:500px;height:300px"></div>
+</body>
+</html>
